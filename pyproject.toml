@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "filesync-tool"
+version = "2.1.0"
+description = "Smart file sync & incremental backup CLI - MD5, dry-run, fnmatch, cross-platform"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+keywords = ["file-sync", "backup", "synchronization", "cli", "file-management"]
+authors = [
+    {name = "K2st0r", email = "k2st0r@users.noreply.github.com"},
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: System :: Archiving :: Backup",
+    "Topic :: System :: Filesystems",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/K2st0r/filesync"
+Repository = "https://github.com/K2st0r/filesync"
+Donate = "https://github.com/K2st0r/filesync#donate--打赏"
